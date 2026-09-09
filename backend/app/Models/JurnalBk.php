@@ -9,6 +9,7 @@ class JurnalBk extends Model
 {
     use SoftDeletes;
 
+    protected $table = 'jurnal_bk';
     protected $fillable = [
         'snapshot_siswa_harian_id',
         'user_id',

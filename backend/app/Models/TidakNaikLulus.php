@@ -9,6 +9,7 @@ class TidakNaikLulus extends Model
 {
     use SoftDeletes;
 
+    protected $table = 'tidak_naik_lulus';
     protected $fillable = [
         'kelas_id',
         'nama',

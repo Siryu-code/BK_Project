@@ -9,6 +9,7 @@ class Pindah extends Model
 {
     use SoftDeletes;
 
+    protected $table = 'pindah';
     protected $fillable = [
         'nama',
         'nomor_absen',

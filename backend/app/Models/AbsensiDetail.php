@@ -9,6 +9,7 @@ class AbsensiDetail extends Model
 {
     use SoftDeletes;
 
+    protected $table = 'absensi_detail';
     protected $fillable = [
         'snapshot_siswa_harian_id',
         'nama',

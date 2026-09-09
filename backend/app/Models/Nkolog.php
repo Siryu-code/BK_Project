@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class NkoLog extends Model
 {
+    protected $table = 'nko_log';
     protected $fillable = [
         'tanggal_eksekusi',
     ];
